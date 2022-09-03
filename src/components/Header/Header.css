@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+#about {
+  background-color: #d3d3d3;
+  padding: 100px 20px 20px 20px;
+}
+
+#about h1:nth-child(1) {
+  font-size: large;
+}
+
+#about h1:nth-child(2) {
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+  margin: 20px 0;
+}
+
+.title-desc p:nth-child(4) {
+  font-weight: bolder;
+}
+
+#about .tech-list {
+  list-style: none;
+  padding: 20px 0;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
